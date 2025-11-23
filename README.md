@@ -4,13 +4,13 @@ Bem-vindo ao **Lembrete Saúde**! Este projeto é uma aplicação desenvolvida p
 
 ## 🙎‍♂️ Membros do Grupo
 
-Eduardo Lopes Ferreira Filho
-Arthur Claudino de Oliveira
-Caio Guilherme Pedrosa de Oliveira
-Charles Mamor Iawmoto Filho
-Danilo Fogaça Pacheco
-Davi Anastacio Santos
-Diego Sabala Gomes
+* Eduardo Lopes Ferreira Filho
+* Arthur Claudino de Oliveira
+* Caio Guilherme Pedrosa de Oliveira
+* Charles Mamor Iawmoto Filho
+* Danilo Fogaça Pacheco
+* Davi Anastacio Santos
+* Diego Sabala Gomes
 
 ## 📸 Visão Geral
 
