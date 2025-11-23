@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 Lembrete Saúde
 
-## Getting Started
+Bem-vindo ao **Lembrete Saúde**! Este projeto é uma aplicação desenvolvida para ajudar os utilizadores a gerir e acompanhar os seus cuidados de saúde e rotinas médicas de forma simples e organizada.
 
-First, run the development server:
+## 🙎‍♂️ Membros do Grupo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Eduardo Lopes Ferreira Filho
+Arthur Claudino de Oliveira
+Caio Guilherme Pedrosa de Oliveira
+Charles Mamor Iawmoto Filho
+Danilo Fogaça Pacheco
+Davi Anastacio Santos
+Diego Sabala Gomes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Visão Geral
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O objetivo deste projeto é fornecer uma interface amigável para o agendamento e acompanhamento de lembretes importantes, garantindo que cuidados essenciais não caiam no esquecimento.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Tecnologias Utilizadas
 
-## Learn More
+Este projeto foi construído utilizando ferramentas modernas que foram fundamentais para agilizar o desenvolvimento e garantir a qualidade do código.
 
-To learn more about Next.js, take a look at the following resources:
+### 🎨 Frontend (Interface)
+A escolha das tecnologias de frontend foi decisiva para criar a aplicação de forma rápida e eficiente:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Next.js:** A estrutura principal da aplicação. A sua arquitetura facilitou imenso a criação das páginas e a integração com o backend.
+* **Tailwind CSS:** Utilizado para a estilização. Ajudou a construir a interface de utilizador (UI) de forma muito ágil, permitindo focar na lógica do produto sem perder tempo com CSS complexo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🗄️ Backend & Base de Dados
+Para a camada de dados, o foco foi na segurança e na integridade das informações:
 
-## Deploy on Vercel
+* **Prisma ORM:** A peça central do backend. O Prisma foi escolhido pela facilidade em lidar com a base de dados, garantindo a segurança dos tipos (*type-safety*) e simplificando a escrita de *queries* e migrações.
+* **SQLite:** A base de dados utilizada para armazenar as informações dos lembretes de forma leve e eficaz.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔧 Como correr o projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Siga os passos abaixo para executar a aplicação no seu ambiente local:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/o-seu-usuario/lembrete-saude.git](https://github.com/o-seu-usuario/lembrete-saude.git)
+
+2. **Instale as dependencias:**   
+   ```bash
+   npm install
+
+3. **Configuração Base de Dados(Prisma):**   
+   ```bash
+   npx prisma migrate dev
+
+3. **Iniciar o servidor de desenvolvimento:**   
+   ```bash
+   npm run dev
